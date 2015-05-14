@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatUI", "ChatUI\ChatUI.csproj", "{7DE61DFE-19AB-4DF6-AF32-6C8BEABB0B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatLib", "ChatLib\ChatLib.csproj", "{C49DDB8C-FE62-456E-A5E5-4BCB1ADCCC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatLogger", "ChatLogger\ChatLogger.csproj", "{74D63574-C84C-4F3E-B476-B7FB04767B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E46F19FB-1D01-4ABC-93E3-3E72C6B05995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlairAnderson_Logger", "BlairAnderson_Logger\BlairAnderson_Logger.csproj", "{1EDB841A-811D-47EE-90A4-D0EC3D2A9A8E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://w0103696.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ChatUI\\ChatUI.csproj
+		SccProjectName1 = ChatUI
+		SccLocalPath1 = ChatUI
+		SccProjectUniqueName2 = ChatLib\\ChatLib.csproj
+		SccProjectName2 = ChatLib
+		SccLocalPath2 = ChatLib
+		SccProjectUniqueName3 = ChatLogger\\ChatLogger.csproj
+		SccProjectName3 = ChatLogger
+		SccLocalPath3 = ChatLogger
+		SccProjectUniqueName4 = Interfaces\\Interfaces.csproj
+		SccProjectName4 = Interfaces
+		SccLocalPath4 = Interfaces
+		SccProjectUniqueName5 = BlairAnderson_Logger\\BlairAnderson_Logger.csproj
+		SccProjectName5 = BlairAnderson_Logger
+		SccLocalPath5 = BlairAnderson_Logger
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DE61DFE-19AB-4DF6-AF32-6C8BEABB0B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE61DFE-19AB-4DF6-AF32-6C8BEABB0B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE61DFE-19AB-4DF6-AF32-6C8BEABB0B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE61DFE-19AB-4DF6-AF32-6C8BEABB0B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49DDB8C-FE62-456E-A5E5-4BCB1ADCCC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49DDB8C-FE62-456E-A5E5-4BCB1ADCCC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49DDB8C-FE62-456E-A5E5-4BCB1ADCCC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49DDB8C-FE62-456E-A5E5-4BCB1ADCCC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D63574-C84C-4F3E-B476-B7FB04767B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D63574-C84C-4F3E-B476-B7FB04767B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D63574-C84C-4F3E-B476-B7FB04767B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D63574-C84C-4F3E-B476-B7FB04767B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46F19FB-1D01-4ABC-93E3-3E72C6B05995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46F19FB-1D01-4ABC-93E3-3E72C6B05995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46F19FB-1D01-4ABC-93E3-3E72C6B05995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46F19FB-1D01-4ABC-93E3-3E72C6B05995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDB841A-811D-47EE-90A4-D0EC3D2A9A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDB841A-811D-47EE-90A4-D0EC3D2A9A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDB841A-811D-47EE-90A4-D0EC3D2A9A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDB841A-811D-47EE-90A4-D0EC3D2A9A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Logging.5.0.505.1\lib\NET35
+	EndGlobalSection
+EndGlobal
